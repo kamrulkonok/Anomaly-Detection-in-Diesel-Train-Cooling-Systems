@@ -28,6 +28,36 @@ The project utilizes a 2GB CSV file containing time-series data from January to 
 - Implementation of K-means clustering and Isolation Forest algorithms to differentiate between noise and genuine deviations in cooling systems.
 - Development of a real-time dashboard for anomaly visualization, aiding the rolling stock team in data-driven decision-making.
 
+## File Structure
+/cool-train-project
+│
+├── pdf_files/ # Documentation and PDF reports
+│ ├── Data Mining Presentation.pdf
+│ ├── R1.pdf
+│ ├── R10.1.pdf
+│ ├── R10.2.pdf
+│ ├── R11.pdf
+│ ├── R12.pdf
+│ ├── R2.pdf
+│ ├── R8.pdf
+│ ├── R9.pdf
+│ ├── cover.pdf
+│ ├── dashboard.pdf
+│ └── r4-r5.pdf
+│
+├── src/ # Source code for analysis and processing
+│ ├── 1. Data Preprocessing/
+│ ├── 2. Data Exploration/
+│ ├── 3. Data Enrichment/
+│ ├── 4. Research Questions/
+│ ├── 5. Anomaly Detection Methods/
+│ ├── 6. Dashboard Development/
+│ ├── 7. Streaming Data Analysis/
+│ └── Old Files/
+│
+├── Data Mining Project.pdf # Project description and requirements
+└── README.md
+
 ## Presentation
 - Access our detailed presentation on Overleaf: [View Presentation](https://www.overleaf.com/2726483457sfsvcpcstxjw)
 
