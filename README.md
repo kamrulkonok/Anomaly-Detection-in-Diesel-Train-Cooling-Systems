@@ -29,6 +29,7 @@ The project utilizes a 2GB CSV file containing time-series data from January to 
 - Development of a real-time dashboard for anomaly visualization, aiding the rolling stock team in data-driven decision-making.
 
 ## File Structure
+```
 /cool-train-project
 │
 ├── pdf_files/ # Documentation and PDF reports
@@ -57,7 +58,7 @@ The project utilizes a 2GB CSV file containing time-series data from January to 
 │
 ├── Data Mining Project.pdf # Project description and requirements
 └── README.md
-
+```
 ## Presentation
 - Access our detailed presentation on Overleaf: [View Presentation](https://www.overleaf.com/2726483457sfsvcpcstxjw)
 
