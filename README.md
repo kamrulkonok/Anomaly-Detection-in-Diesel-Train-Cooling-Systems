@@ -1,5 +1,30 @@
 README: 
-Data Mining project for the Data Mining course at ULB.
+** Overview **
+The Cool Train project is part of the INFOH423 Data Mining Project for 2023/24, sponsored by the rolling stock team at the National Railway Company of Belgium (SNCB). This initiative focuses on analyzing and improving the cooling systems of SNCB's diesel trains, specifically the Belgian Railways Class 41. The main objective is to detect anomalies in the cooling systems that could indicate potential failures in engine or transmission operations, and thereby help in avoiding train delays and ensuring operational efficiency.
+
+** Problem Statement **
+Diesel trains, particularly the two-vehicle AR41, are equipped with intricate cooling systems necessary for the proper functioning of the engine and transmission. Anomalies in these systems can lead to significant operational disruptions. Our project aims to develop methods to effectively detect and categorize these anomalies, distinguishing between sensor noise, deviations in individual cooling systems, and systemic issues affecting overall engine performance.
+
+** Dataset **
+The project utilizes a 2GB CSV file containing time-series data from January to September 2023, capturing various operational parameters of the diesel trains. The data includes:
+
+	-Temperatures and pressures from dual cooling systems
+	-Engine RPMs
+	-GPS locations
+	-Key variables include air and water temperatures, oil pressures, and more, with timestamps for 	real-time tracking.
+** Methods and Technologies Used **
+	# Data Preprocessing
+ 		• Removal of null values, filtering based on time intervals, and cleansing of anomalous 		geolocation data.
+		•Conversion of timestamps for time-series analysis.
+  	# Exploratory Data Analysis (EDA)
+   		• Statistical and visual techniques to investigate temporal patterns in temperature and 		pressure anomalies.
+	# Data Enrichment
+ 		• Integration of weather data from nearby stations, considering various weather 			conditions like temperature, humidity, snowfall, and rain, to analyze their impact on 			cooling system performance.
+   	# Anomaly Detection 
+    		• Development of a real-time dashboard for anomaly visualization, aiding the rolling 			stock team in data-driven decision-making.
+
+**Presentation**
+- overleaf link: https://www.overleaf.com/2726483457sfsvcpcstxjw#4c1890
 
 ```
 
@@ -34,7 +59,7 @@ How to import weather data:
 
 TODO: 2 November
   - Narmina: Anomaly detection techniques ✅
-  - Konok: Data Cleaning ✅, Anomaly detection techniques ✅
+  - Kamrul: Data Cleaning ✅, Anomaly detection techniques ✅
   - Pepe: Weather data ✅
   - Simon: Visualizations ✅, Separate journeys ✅
 
@@ -43,7 +68,7 @@ TODO: 2 November
 TODO: 9 November:
   - Simon: MobilityDB setup ✅
   - Narmina: Anomaly detection techniques ✅
-  - Konok: Local notebook (jupyter) ✅
+  - Kamrul: Local notebook (jupyter) ✅
   - Pepe: other work ✅
 
 for  everyone: 
@@ -102,7 +127,7 @@ Descriptive Analytics:
 - Pepe has looked into the bounding box (values not contained in the Belgium geom)
 
 Noisy entries:
-- Konok mentioned binning to clean the noisy entries
+- Kamrul mentioned binning to clean the noisy entries
 
 Distance:
 - Distance to weather pull sensors can be included in the outlier detection analysis
@@ -112,7 +137,7 @@ Clustering:
 
 Topics to be investigated:
 - Narmina: Classification and model validation data preparation
-- Konok: Clustering
+- Kamrul: Clustering
 - Simon: Frequent patterns and association rule mining
 - Pepe: Outlier mining
 
@@ -128,7 +153,7 @@ Topics to be investigated:
    	NARMINA: ✅ R3
 
 4. Are there specific times of day, days of the week, or months where temperature anomalies are more frequent?\
-   	KONOK: ✅ Look at R4_R5.ipynb in exports
+   	KAMRUL: ✅ Look at R4_R5.ipynb in exports
 
 8. Look at the speed and find anomalies\
    	SIMON: ✅ R8
@@ -143,6 +168,3 @@ Topics to be investigated:
 **Ideas on things for the stream bonus task**
 - Algorithm that checks incoming locations if the speed is within boundaries, it flags incorrect location
 - Algorithm that checks incoming temperatures and checks the duration of occurrences when the temperature is outside of boundaries and then reports
-
-**Presentation**
-- overleaf link: https://www.overleaf.com/2726483457sfsvcpcstxjw#4c1890
