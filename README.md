@@ -13,15 +13,15 @@ The project utilizes a 2GB CSV file containing time-series data from January to 
 	-GPS locations
 	-Key variables include air and water temperatures, oil pressures, and more, with timestamps for 	real-time tracking.
 **Methods and Technologies Used**
-	#Data Preprocessing
- 		• Removal of null values, filtering based on time intervals, and cleansing of anomalous 		geolocation data.
-		• Conversion of timestamps for time-series analysis.
-  	#Exploratory Data Analysis (EDA)
-   		• Statistical and visual techniques to investigate temporal patterns in temperature and 		pressure anomalies.
-	#Data Enrichment
- 		• Integration of weather data from nearby stations, considering various weather 			conditions like temperature, humidity, snowfall, and rain, to analyze their impact on 			cooling system performance.
-   	#Anomaly Detection 
-    		• Development of a real-time dashboard for anomaly visualization, aiding the rolling 			stock team in data-driven decision-making.
+	1.Data Preprocessing
+ 		-Removal of null values, filtering based on time intervals, and cleansing of anomalous 			geolocation data.
+		-Conversion of timestamps for time-series analysis.
+  	2.Exploratory Data Analysis (EDA)
+   		-Statistical and visual techniques to investigate temporal patterns in temperature and 			pressure anomalies.
+	3.Data Enrichment
+ 		-Integration of weather data from nearby stations, considering various weather 				conditions like temperature, humidity, snowfall, and rain, to analyze their impact on 			cooling system performance.
+   	4.Anomaly Detection 
+    		-Development of a real-time dashboard for anomaly visualization, aiding the rolling 			stock team in data-driven decision-making.
 
 **Presentation**
 - overleaf link: https://www.overleaf.com/2726483457sfsvcpcstxjw#4c1890
