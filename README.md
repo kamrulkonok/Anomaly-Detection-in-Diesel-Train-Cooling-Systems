@@ -1,5 +1,4 @@
-README: 
-# Cool Train Anomaly Detection
+# Anomaly Detection in Diesel Train Cooling Systems
 
 ## Overview
 The Cool Train project is part of the INFOH423 Data Mining Project for 2023/24, sponsored by the rolling stock team at the National Railway Company of Belgium (SNCB). This initiative focuses on analyzing and improving the cooling systems of SNCB's diesel trains, specifically the Belgian Railways Class 41. The main objective is to detect anomalies in the cooling systems that could indicate potential failures in engine or transmission operations, and thereby help in avoiding train delays and ensuring operational efficiency.
